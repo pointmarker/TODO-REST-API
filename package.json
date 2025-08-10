@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "mongoose": "^8.17.1",
+    "morgan": "^1.10.1",
+    "node-localstorage": "^3.0.5",
+    "pg": "^8.16.0",
+    "qs": "^6.14.0"
+  },
+  "name": "practicing",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "Git",
+    "url": ""
+  },
+  "author": "pointmarker",
+  "license": "UNLICENSED",
+  "version": "1.0.0",
+  "keywords": [],
+  "description": ""
+}
