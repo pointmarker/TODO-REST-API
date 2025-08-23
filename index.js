@@ -25,9 +25,6 @@ mongoose.connect(process.env.MONGO_URI, {useNewUrlParser: true, useUnifiedTopolo
     .then(() => console.log("mongoDB connected"))
     .catch(err => console.error("mongoDB not connected:", err));
 
-
-
-
 //task eklemek için kullanılacak istek
 app.post("/api/todo",async (req,res) => {
     const {title,description, completed, createdAt} = req.body
